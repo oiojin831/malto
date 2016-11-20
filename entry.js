@@ -1,2 +1,4 @@
-document.write("Yay!");
+import "./style.css"
+
+document.write("it works!");
 
