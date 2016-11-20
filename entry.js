@@ -1,4 +1,16 @@
-import "./style.css"
+import "./style.css"; 
 
-document.write("it works!");
+import React from "react";
+import { render } from "react-dom";
 
+class HelloReact extends React.Component { 
+  render() {
+    return(
+      <div id='helloReact'>
+        Hello from React!
+      </div>
+    );
+  }
+}
+
+render(<HelloReact />, document.getElementById('root-app'));
